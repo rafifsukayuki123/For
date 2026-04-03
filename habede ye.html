@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>habedeeeeeeeeeee dini aprila</title>
+    <style>
+        body {
+            background-color: pink; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            transition: background 0.5s ease;
+        }
+
+        .card {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background-color: #ff69b4; 
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: #ff1493;
+        }
+
+        #surprise {
+            display: none;
+            margin-top: 20px;
+        }
+
+        h1 { color: #d63384; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1 id="title">gua mo ngomong bentar</h1>
+    <button onclick="tampilkanKejutan()">klik disini dongsssss</button>
+    
+    <div id="surprise">
+        <h2>🎉 HABEDEEEEEEEEEEEEEEEEE 🎂</h2>
+        <p>ciee yang makin dewasa, yg makin hepi, yg udah 17 taun eh apa 16 ya 17 deng<br> 
+        ni muka lu yg katanya cantik</p>
+        <img src="fotomukalu.jpeg" width="200">
+    </div>
+</div>
+
+<script>
+    function tampilkanKejutan() {
+        document.getElementById('surprise').style.display = 'block';
+        document.getElementById('title').innerHTML = "yahahahay kena";
+        document.body.style.backgroundColor = "#ff85a2";
+        
+        alert("yeayyy habedeee semoga makin bahagia dan nggak makin sering galau gegara cowok lu atau apapun itu yaaa");
+    }
+</script>
+
+</body>
+</html>
