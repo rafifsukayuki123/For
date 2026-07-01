@@ -51,7 +51,7 @@
 
 <div class="card">
     <h1 id="title">hai najma pendek, tau kan ini siapa?</h1>
-    <button onclick="tampilkanKejutan()">klik disini dongsssss</button>
+    <button id="ya" onclick="tampilkanKejutan()">klik disini dongsssss</button>
     
     <div id="surprise">
         <h2>CONGRATSSS AISARA NAJMA WALEEFA KHAIRUDIN MASUK FH UI LOHHH!!!</h2>
@@ -65,7 +65,7 @@
                 <button onclick="lagi()">klik disini sekali lagi bole yah?</button>
                     <script>
                         function lagi() {
-                            alert("tau nggak sih? kamu itu kayak mbg, my bini gu- eits BECANDA HAHA salting ngga ya");
+                            alert("tau nggak sih? kamu itu kayak mbg, my bini gu- eits BECANDA HAHA nanti aku ditandain sama...");
                         }
                     </script>
             </p>
@@ -73,6 +73,7 @@
 
 <script>
     function tampilkanKejutan() {
+        document.getElementById('ya').style.display = 'none';
         document.getElementById('surprise').style.display = 'block';
         document.getElementById('title').innerHTML = "yeay dipencet";
         document.body.style.backgroundColor = "#ff85a2";
